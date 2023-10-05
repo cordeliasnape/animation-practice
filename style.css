@@ -1,0 +1,195 @@
+main {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* #centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: lightgray solid 8px;
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: rgb(255, 179, 232);
+  }
+  50% {
+    background-color: rgb(252, 255, 169);
+  }
+}
+
+#btn {
+  height: 100px;
+  width: 200px;
+  font-size: x-large;
+  border: lightgray solid 5px;
+  box-shadow: 2px 2px grey;
+} */
+
+#bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  width: 700px;
+  height: max-content;
+}
+
+#barM {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+  width: 700px;
+  height: max-content;
+}
+
+.music-bar {
+  display: flex;
+  align-items: end;
+  width: 100px;
+  height: 100px;
+  border: rgb(145, 144, 144) 2px solid;
+}
+
+.music-barM {
+  display: flex;
+  align-items: start;
+  width: 100px;
+  height: 100px;
+  border: rgb(174, 173, 173) 2px solid;
+}
+
+#one {
+  animation: heightOne 3s infinite alternate;
+  background-color: #ffcdd2;
+}
+#oneM {
+  animation: heightOne 3s infinite alternate;
+  background-color: #ffebee;
+}
+
+@keyframes heightOne {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 250px;
+  }
+  100% {
+    height: 100px;
+  }
+}
+
+#two {
+  animation: heightTwo 3s infinite alternate;
+  background-color: #ffab91;
+}
+#twoM {
+  animation: heightTwo 3s infinite alternate;
+  background-color: #ffd1c4;
+}
+
+@keyframes heightTwo {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 150px;
+  }
+  100% {
+    height: 180px;
+  }
+}
+
+#three {
+  animation: heightThree 3s infinite alternate;
+  background-color: #fff9c4;
+}
+#threeM {
+  animation: heightThree 3s infinite alternate;
+  background-color: #ffffd1;
+}
+
+@keyframes heightThree {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 120px;
+  }
+  100% {
+    height: 270px;
+  }
+}
+
+#four {
+  animation: heightFour 3s infinite alternate;
+  background-color: #a5d6a7;
+}
+#fourM {
+  animation: heightFour 3s infinite alternate;
+  background-color: #c8e6c9;
+}
+
+@keyframes heightFour {
+  0%,
+  100% {
+    height: 10px;
+  }
+  50% {
+    height: 70px;
+  }
+}
+
+#five {
+  animation: heightFive 3s infinite alternate;
+  background-color: #90caf9;
+}
+#fiveM {
+  animation: heightFive 3s infinite alternate;
+  background-color: #bbdefb;
+}
+
+@keyframes heightFive {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 250px;
+  }
+  100% {
+    height: 120px;
+  }
+}
+
+#six {
+  animation: heightSix 3s infinite alternate;
+  background-color: #ce93d8;
+}
+#sixM {
+  animation: heightSix 3s infinite alternate;
+  background-color: #e1bee7;
+}
+
+@keyframes heightSix {
+  0% {
+    height: 30px;
+  }
+  50% {
+    height: 150px;
+  }
+  100% {
+    height: 200px;
+  }
+}
